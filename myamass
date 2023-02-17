@@ -1,0 +1,1 @@
+docker run -v db:/.config/amass/ caffix/amass enum -d $1 | tee found/$1.txt
